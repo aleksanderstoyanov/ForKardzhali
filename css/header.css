@@ -428,7 +428,18 @@ div.highlightTextIn a:before
     margin: 10px auto 20px auto;
 }
 
-.main-heading:hover, .nav-footer:hover {
+.main-heading:hover, .secondary-heading:hover, .nav-footer:hover {
     letter-spacing: 3px;
     transition: all 0.8s ease 0s;
+}
+
+
+.secondary-heading::after{
+    content: "";
+    display: block;
+    height: 4px;
+    width: 550px;
+    border-radius: 3px;
+    background-color: #74C0FC;
+    margin: 10px auto 20px auto;
 }

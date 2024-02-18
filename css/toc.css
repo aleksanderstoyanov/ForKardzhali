@@ -1,0 +1,14 @@
+.article-toc{
+    font-size: 14px;
+    padding-left: 10px;
+    width: 180px; 
+    margin-top: 8%;
+    border-right: 1px solid #DEDEDE;
+}
+
+.article-toc .side-title{
+    padding-top: 10px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #4b4e52;
+}
