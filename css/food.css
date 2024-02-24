@@ -20,7 +20,7 @@
         opacity:1;
       }
       p{
-        font-size: 12px;
+        font-size: 15px;
         font-weight: bold;
       }
     }
@@ -36,7 +36,7 @@
   }
 }
 .card{
-  min-height:170px;
+  min-height: 250px;
   margin: 0;
   padding: 1.7rem 1.2rem;
   border: none;
@@ -56,19 +56,18 @@
     p{
       font-size:.7rem;
       letter-spacing: 0rem;
-      margin-top:33px;
+      margin-top: 20%;
       opacity:0;
       color:black;
     }
   }
   .more-info{
     z-index:3;
-    font-size: .7rem;
+    font-size: 15px;
     color:white;
-    margin-left:1rem;
     position:relative;
+    margin-top: auto;
     margin-right: 50%;
-    bottom: -.5rem;
     text-transform: uppercase;
     &:after {
       content:"";
