@@ -91,7 +91,7 @@
     overflow: hidden;
   }
   .food-image{
-       height: 250px;
+       height: 100%;
        opacity: 1;
        color: black;
        object-fit: fill;
