@@ -15,6 +15,7 @@
   <link rel="stylesheet" href="./css/index.css">
   <link rel="stylesheet" href="./css/toc.css">
   <link rel="stylesheet" href="./css/card-float.css">
+  <link rel="stylesheet" href="./css/interactive-buttons.css">
   <title>История на Кърджали</title>
 </head>
 
@@ -126,12 +127,12 @@
       <div class="card mt-0" style="box-shadow: 2px 45px 20px 2px rgba(0,0,0,0.35);">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./images/Battle-for-Odrin-870x500.jpg" alt="Цар Калоян" style="object-fit: cover;" height="100%"
+            <img src="./images/Battle-for-Odrin-870x500.jpg" style="object-fit: cover;" alt="Битката при Одрин"  height="100%"
               width="100%">
           </div>
-          <div class="col-md-6" style="margin-top: 5%;">
+          <div class="col-md-8" style="margin-top: 5%;">
             <h4 class="card-title"><strong>Ранно Средновековие</strong></h4>
-            <div class="card-body">
+            <div class="card-body" style="display: none;">
               <h6 class="card-title"><strong>Хан Пресиян</strong></h6>
               <p class="card-text">
                 Първите сведения за постъпването на Кърджали като територия на България датират още през далечната 847
@@ -149,6 +150,7 @@
               </p>
               <br />
             </div>
+            <button class="ib-primary mt-4 mb-3 details-btn" role="button"><span class="text" >Виж още информация</span></button>
           </div>
         </div>
       </div>
@@ -161,11 +163,11 @@
       <div class="card mt-0" style="box-shadow: 2px 45px 20px 2px rgba(0,0,0,0.35);">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./images/24_-_Officer_of_European_Infantry.jpg" alt="Кърджа Али" height="100%" width="100%">
+            <img src="./images/24_-_Officer_of_European_Infantry.jpg" style="object-fit: cover;" alt="Кърджа Али" height="100%" width="100%">
           </div>
           <div class="col-md-8" style="margin-top: 5%">
             <h4 class="card-title"><strong>Легендата за Кърджа Али</strong></h4>
-            <div class="card-body" style="margin-top: 5%;">
+            <div class="card-body" style="display: none;">
               <p class="card-text">
                 Счита се, че най-значимият принос зад наименованието на Кърджали има един единствен човек, а именно -
                 Кърджа Али.
@@ -174,10 +176,10 @@
                 Има няколко спекулации, които се въртят около това дали селото е било титулувано по време на сраженията
                 или заради репутацията, която Кърджа Али е изградил преди това.
               </p>
-              <p style="margin-top:8.5%">Следният цитат подкрепя втората тезa, в която се задълбава повече за произхода
+              <p class="card-text">Следният цитат подкрепя втората тезa, в която се задълбава повече за произхода
                 на името му:</p>
               <blockquote class="blockquote mb-0" style="margin-top: 5%;">
-                <p style="font-size: 14px;"><em>"Не мисли, че можеш да ме излъжеш. Този, когото уби, бях аз, но ето ме
+                <p class="card-text" style="font-size: 14px;"><em>"Не мисли, че можеш да ме излъжеш. Този, когото уби, бях аз, но ето ме
                     жив пред тебе. Запомни, втори път не се опитвай да не казваш истината. Седни си на мястото. Ти вече
                     не си ученик, ти си <strong>кърджи</strong>."</em></p>
                 <footer class="blockquote-footer"><a title="Кърджали История и Легенди" target="_blank"
@@ -185,6 +187,7 @@
                       title="Source Title">Кърджа Али</cite></a></footer>
               </blockquote>
             </div>
+            <button class="ib-primary mt-4 mb-3 details-btn" role="button"><span class="text" >Виж още информация</span></button>
           </div>
         </div>
       </div>
@@ -197,11 +200,11 @@
       <div class="card mt-0" style="box-shadow: 2px 45px 20px 2px rgba(0,0,0,0.35);">
         <div class="row g-0">
           <div class="col-md-4">
-            <img src="./images/Balkanska-voyna-Kardzhali.jpg" alt="Балканска Война" height="100%" width="100%">
+            <img src="./images/Balkanska-voyna-Kardzhali.jpg" alt="Балканска Война" style="object-fit: cover;" height="100%" width="100%">
           </div>
           <div class="col-md-8" style="margin-top: 5%;">
             <h4 class="card-title"><strong>Битката при Кърджали</strong></h4>
-            <div class="card-body">
+            <div class="card-body" style="display: none;">
               <p class="card-text">
                 Битката при Кърджали ненадейно попада в полезрението на Балканската война през 1912 година. Като основен
                 пръст в това има <a title="Корекция на двустранните граници от 1886 година" target="_blank"
@@ -223,6 +226,7 @@
                 страна на реорганизация, завършваща с тяхното прегрупиране в подножието на Момчилград.
               </p>
             </div>
+            <button class="ib-primary mt-4 mb-3 details-btn" role="button"><span class="text" >Виж още информация</span></button>
           </div>
         </div>
       </div>
@@ -254,6 +258,7 @@
     integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
     crossorigin="anonymous"></script>
   <script src="./toc.js"></script>
+  <script src="./more-details-slider.js"></script>
 </body>
 
 </html>
